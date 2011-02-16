@@ -1,3 +1,6 @@
 [submodule "ejs"]
 	path = ejs
 	url = git://github.com/visionmedia/ejs.git
+[submodule "ntpl"]
+	path = ntpl
+	url = https://github.com/donnerjack13589/nTPL.git
