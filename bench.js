@@ -1,6 +1,6 @@
 var bm = require('./common'),
     ejs = require('./ejs/lib/ejs'),
-    ntpl = require('./ntpl/lib/nTPL/nTPL'),
+    ntpl = require('ntpl'),
     fs = require('fs'),
     sys = require('sys');
 
