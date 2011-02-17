@@ -1,7 +1,7 @@
 <table>
   <tr>
-  <% table.forEach(function(row){ %>
+  <% table.forEach(function (row) { %>
     <% for (var key in row) { %><td><%- row[key] %></td><% } %>
-  <% }) %>
+  <% }); %>
   </tr>
 </table>

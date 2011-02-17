@@ -5,8 +5,9 @@ var bm = require('./common'),
 
 var str = fs.readFileSync(__dirname + '/bigtable.ejs', 'ascii');
 
+ejs.render(str, { locals: bm.contexts.bigtable, debug: true });
+
 var n = bm.times;
-//sys.print(ejs.render(str, { locals: bm.contexts.bigtable }));
 bm.start('ejs compilation');
 while (n--) {
     ejs.render(str, { locals: bm.contexts.bigtable });
